@@ -164,9 +164,16 @@ most_popular_boyname <- filter(popular_baby_names, rank == 1 & gender == "MALE")
   )
 ```
 
-```{r show_table}
-# Show the table
+
+#### Rank of 'Olivia' as a Female Baby Name Over Time
+```{r show_table_1}
+
 knitr::kable(olivia_popularity)
+```
+
+#### Most Popular Boy Name Over Time
+```{r show_table_2}
+
 knitr::kable(most_popular_boyname)
 ```
 
